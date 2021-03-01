@@ -6,6 +6,12 @@
   height: 56px;
   display: flex;
   position: relative;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #1b224628;
 
   .brandName {
     width: 76px;
@@ -21,7 +27,7 @@
     ul {
       display: flex;
       position: absolute;
-      top: 30px;
+      top: 14px;
       left: 100px;
 
       li {
@@ -43,8 +49,8 @@
     ul {
       display: flex;
       position: absolute;
-      left: 1050px;
-      top: 20px;
+      left: 1500px;
+      top: 1px;
 
       li {
         padding: 0 7px;
@@ -58,10 +64,10 @@
             border-bottom: 2px solid black;
             position: absolute;
             right: 300px;
-            bottom: 2px;
+            bottom: -1px;
 
             input {
-              // transition: top 0.5s ease, opacity 0.3s ease;
+              transition: top 0.5s ease, opacity 0.3s ease;
               width: 300px;
               height: 30px;
               border: none;
