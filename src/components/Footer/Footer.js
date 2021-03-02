@@ -6,6 +6,7 @@ class Footer extends Component {
     return (
       <footer>
         <div className="footerList">
+          <p>Information</p>
           <ul className="firstLine">
             <li>Newsletter - sign up for 10% off</li>
             <li>Customer service</li>
