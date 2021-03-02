@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import "../Mainpage/Mainpage.scss";
 import Nav from "../../components/Nav/Nav";
+import Footer from "../../components/Footer/Footer";
 
 class Mainpage extends Component {
   constructor() {
@@ -107,6 +108,7 @@ class Mainpage extends Component {
             </div>
           </div>
         </body>
+        <Footer />
       </>
     );
   }

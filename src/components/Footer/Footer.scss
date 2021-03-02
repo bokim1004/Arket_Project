@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nanum+Gothic&display=swap");
+
+footer {
+  width: 100%;
+  height: 56px;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  background-color: #ffffff;
+  box-shadow: 10px 0 6px #1b224628;
+  z-index: 1200;
+  //position: relative;
+
+  .footerList {
+    width: 770px;
+    height: 65px;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    top: 10px;
+    // border: 1px solid black;
+
+    ul {
+      display: flex;
+      white-space: noWrap;
+      li {
+        font-size: 14px;
+        font-family: "Montserrat", sans-serif;
+        margin-left: 20px;
+        font-weight: 400;
+      }
+      li:hover {
+        background-color: black;
+        color: white;
+        border-radius: 2px;
+      }
+    }
+  }
+}
