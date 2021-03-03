@@ -8,9 +8,9 @@ class Mainpage extends Component {
     super();
     this.state = {
       imageUrl1: [
-        "https://images.unsplash.com/photo-1595959183082-7b570b7e08e2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=kristina-v-hYdikKrex4U-unsplash.jpg",
-        "https://images.unsplash.com/photo-1504899567410-7501a313cadd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=lucas-sankey-LVMG26EQfsk-unsplash.jpg",
-        "https://images.unsplash.com/photo-1531129630896-1744cab0cafd?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=vidar-nordli-mathisen-yxwBJjtgtUs-unsplash.jpg",
+        "https://images.unsplash.com/photo-1528046657509-cb5f732754b2?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=jenna-anderson-DFIg-Mm6zHw-unsplash.jpg&w=1920",
+        "https://images.unsplash.com/photo-1492446845049-9c50cc313f00?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=brooke-cagle-Ss3wTFJPAVY-unsplash.jpg&w=1920",
+        "https://images.unsplash.com/photo-1539512229173-953e5253d837?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=simon-rae-lPlNLxnAMLU-unsplash.jpg&w=1920",
         "https://images.unsplash.com/photo-1601334168721-95df916e53d5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=italic-l_r4BWqLrVs-unsplash.jpg",
       ],
       imageUrl2: [
