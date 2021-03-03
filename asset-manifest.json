@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/bokim1004/Arket_Project/static/css/main.7f32b1b0.chunk.css",
-    "main.js": "/bokim1004/Arket_Project/static/js/main.d8378725.chunk.js",
-    "main.js.map": "/bokim1004/Arket_Project/static/js/main.d8378725.chunk.js.map",
+    "main.css": "/bokim1004/Arket_Project/static/css/main.3fbce496.chunk.css",
+    "main.js": "/bokim1004/Arket_Project/static/js/main.60b72dac.chunk.js",
+    "main.js.map": "/bokim1004/Arket_Project/static/js/main.60b72dac.chunk.js.map",
     "runtime-main.js": "/bokim1004/Arket_Project/static/js/runtime-main.6b0f1d5f.js",
     "runtime-main.js.map": "/bokim1004/Arket_Project/static/js/runtime-main.6b0f1d5f.js.map",
     "static/js/2.17107911.chunk.js": "/bokim1004/Arket_Project/static/js/2.17107911.chunk.js",
     "static/js/2.17107911.chunk.js.map": "/bokim1004/Arket_Project/static/js/2.17107911.chunk.js.map",
     "index.html": "/bokim1004/Arket_Project/index.html",
-    "static/css/main.7f32b1b0.chunk.css.map": "/bokim1004/Arket_Project/static/css/main.7f32b1b0.chunk.css.map",
+    "static/css/main.3fbce496.chunk.css.map": "/bokim1004/Arket_Project/static/css/main.3fbce496.chunk.css.map",
     "static/js/2.17107911.chunk.js.LICENSE.txt": "/bokim1004/Arket_Project/static/js/2.17107911.chunk.js.LICENSE.txt",
     "static/media/Mainpage.scss": "/bokim1004/Arket_Project/static/media/main.694bac8b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6b0f1d5f.js",
     "static/js/2.17107911.chunk.js",
-    "static/css/main.7f32b1b0.chunk.css",
-    "static/js/main.d8378725.chunk.js"
+    "static/css/main.3fbce496.chunk.css",
+    "static/js/main.60b72dac.chunk.js"
   ]
 }
