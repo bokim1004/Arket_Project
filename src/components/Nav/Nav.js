@@ -6,6 +6,7 @@ import {BsPerson} from "react-icons/bs";
 import {HiOutlineQuestionMarkCircle} from "react-icons/hi";
 import {AiOutlineShopping} from "react-icons/ai";
 import {AiOutlineClose} from "react-icons/ai";
+import {AiOutlineMenu} from "react-icons/ai";
 
 class Nav extends Component {
   constructor() {
@@ -30,12 +31,15 @@ class Nav extends Component {
 
   render() {
     //event bubbling
-    const logEvent = (event) => {
+    const searchEvent = (event) => {
       event.stopPropagation();
     };
 
     return (
       <div className="navBar">
+        <div className="lineBtn">
+          <AiOutlineMenu size={28} />
+        </div>
         <div className="brandName"> ARKET </div>
         <div className="itemList">
           <ul>
@@ -56,7 +60,7 @@ class Nav extends Component {
                 </button>
               ) : (
                 <button onClick={this.handleSearchIcon}>
-                  <div className="searchInput" onClick={logEvent}>
+                  <div className="searchInput" onClick={searchEvent}>
                     <input placeholder="Search products" type="text" />
                   </div>
                   <AiOutlineClose size={28} />
