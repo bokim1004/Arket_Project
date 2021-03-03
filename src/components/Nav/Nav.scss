@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nanum+Gothic&display=swap");
+
+.navBar {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  position: relative;
+
+  .brandName {
+    width: 76px;
+    height: 100%;
+    font-size: 24px;
+    font-family: "Nanum Gothic", sans-serif;
+    margin-left: 20px;
+    position: absolute;
+    top: 20px;
+  }
+
+  .itemList {
+    ul {
+      display: flex;
+      position: absolute;
+      top: 30px;
+      left: 100px;
+
+      li {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        padding: 0 6px;
+        letter-spacing: 0.01px;
+      }
+      li:hover {
+        background-color: black;
+        color: white;
+        border-radius: 2px;
+      }
+    }
+  }
+
+  .iconList {
+    ul {
+      display: flex;
+      position: absolute;
+      left: 1050px;
+      top: 20px;
+
+      li {
+        padding: 0 7px;
+        button {
+          border: none;
+          background: none;
+          outline: none;
+
+          .searchInput {
+            width: 350px;
+            border-bottom: 2px solid black;
+            position: absolute;
+            right: 300px;
+            bottom: 2px;
+
+            input {
+              // transition: top 0.5s ease, opacity 0.3s ease;
+              width: 300px;
+              height: 30px;
+              border: none;
+              outline: none;
+              font-size: 17px;
+              color: black;
+              background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png);
+              background-position: 2px center;
+              background-size: contain;
+              background-repeat: no-repeat;
+              padding: 5px 5px;
+              text-indent: 30px;
+            }
+          }
+        }
+      }
+      li:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
