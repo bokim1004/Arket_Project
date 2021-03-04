@@ -16,7 +16,7 @@ class Nav extends Component {
       searchIcon: true,
     };
   }
-  //   toggle
+
   handleLoginBox = () => {
     this.setState({
       showComponent: !this.state.showComponent,
@@ -30,7 +30,6 @@ class Nav extends Component {
   };
 
   render() {
-    //event bubbling
     const searchEvent = (event) => {
       event.stopPropagation();
     };
