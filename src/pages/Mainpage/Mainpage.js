@@ -31,84 +31,86 @@ class Mainpage extends Component {
     const {imageUrl1, imageUrl2, imageUrl3} = this.state;
     return (
       <>
-        <Nav />
         <body>
-          <div className="mainImg">
-            <div className="mainText">
-              <h2 className="mainTitle">
-                <span>S/S 2021</span>
-                <span className="modern">Modern Marinière</span>
-              </h2>
-              <div className="mainTag">
-                <ul>
-                  <li>Women </li>
-                  <li>Men</li>
-                  <li>Children</li>
-                </ul>
+          <Nav />
+          <div className="totalContainer">
+            <div className="mainImg">
+              <div className="mainText">
+                <h2 className="mainTitle">
+                  <span>S/S 2021</span>
+                  <span className="modern">Modern Marinière</span>
+                </h2>
+                <div className="mainTag">
+                  <ul>
+                    <li>Women </li>
+                    <li>Men</li>
+                    <li>Children</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="imgCover"></div>
+            </div>
+            <div className="imgContainer">
+              <div className="imgList">
+                <img src={imageUrl1[0]} alt="women" />
+                <p>Women</p>
+              </div>
+              <div className="imgList">
+                <img src={imageUrl1[1]} alt="men" />
+                <p>Men</p>
+              </div>
+              <div className="imgList">
+                <img src={imageUrl1[2]} alt="children" />
+                <p>Children</p>
+              </div>
+              <div className="imgList">
+                <img src={imageUrl1[3]} alt="homeware" />
+                <p>Homeware</p>
+              </div>
+              <div className="cover"></div>
+            </div>
+            <div className="imgContainer">
+              <div className="imgList">
+                <img src={imageUrl2[0]} alt="family" />
+                <p>ARKET Family</p>
+              </div>
+              <div className="imgList">
+                <img src={imageUrl2[1]} alt="newCloth" />
+                <p>New arrivals</p>
+              </div>
+              <div className="imgList">
+                <img src={imageUrl2[2]} alt="baby" />
+                <p>Baby</p>
+              </div>
+              <div className="imgList">
+                <img src={imageUrl2[3]} alt="cafe" />
+                <p>Arket cafe</p>
+              </div>
+              <div className="cover"></div>
+            </div>
+            <div className="lastMainpage">
+              <div className="explore">
+                <span>EXPLORE</span>
+                <span>ARKET</span>
+              </div>
+              <div className="lastImgs">
+                <div className="imgs">
+                  <img src={imageUrl3[0]} alt="arket" />
+                  <p>About ARKET</p>
+                </div>
+                <div className="imgs">
+                  <img src={imageUrl3[1]} alt="sustain" />
+                  <p>Sustainability Fact Sheet</p>
+                </div>
+                <div className="imgs">
+                  <img src={imageUrl3[2]} alt="recycle" />
+                  <p>Recycle with ARKET</p>
+                </div>
               </div>
             </div>
-            <div className="imgCover"></div>
           </div>
-          <div className="imgContainer">
-            <div className="imgList">
-              <img src={imageUrl1[0]} alt="women" />
-              <p>Women</p>
-            </div>
-            <div className="imgList">
-              <img src={imageUrl1[1]} alt="men" />
-              <p>Men</p>
-            </div>
-            <div className="imgList">
-              <img src={imageUrl1[2]} alt="children" />
-              <p>Children</p>
-            </div>
-            <div className="imgList">
-              <img src={imageUrl1[3]} alt="homeware" />
-              <p>Homeware</p>
-            </div>
-            <div className="cover"></div>
-          </div>
-          <div className="imgContainer">
-            <div className="imgList">
-              <img src={imageUrl2[0]} alt="family" />
-              <p>ARKET Family</p>
-            </div>
-            <div className="imgList">
-              <img src={imageUrl2[1]} alt="newCloth" />
-              <p>New arrivals</p>
-            </div>
-            <div className="imgList">
-              <img src={imageUrl2[2]} alt="baby" />
-              <p>Baby</p>
-            </div>
-            <div className="imgList">
-              <img src={imageUrl2[3]} alt="cafe" />
-              <p>Arket cafe</p>
-            </div>
-            <div className="cover"></div>
-          </div>
-          <div className="lastMainpage">
-            <div className="explore">
-              <span>EXPLORE</span>
-              <span>ARKET</span>
-            </div>
-            <div className="lastImgs">
-              <div className="imgs">
-                <img src={imageUrl3[0]} alt="arket" />
-                <p>About ARKET</p>
-              </div>
-              <div className="imgs">
-                <img src={imageUrl3[1]} alt="sustain" />
-                <p>Sustainability Fact Sheet</p>
-              </div>
-              <div className="imgs">
-                <img src={imageUrl3[2]} alt="recycle" />
-                <p>Recycle with ARKET</p>
-              </div>
-            </div>
-          </div>
+          <Footer />
         </body>
-        <Footer />
       </>
     );
   }

@@ -8,7 +8,7 @@ class Routes extends Component {
     return (
       <Router>
         <Switch>
-          <Route exact path="/" component={MainPage} />
+          <Route exact path="/Arket_Project" component={MainPage} />
         </Switch>
       </Router>
     );
