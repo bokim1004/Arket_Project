@@ -7,7 +7,6 @@
 footer {
   width: 100%;
   height: 56px;
-  //position: fixed;
   left: 0px;
   bottom: 0px;
   background-color: #ffffff;
@@ -20,7 +19,7 @@ footer {
     height: 65px;
     position: absolute;
     left: 35%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     top: 10px;
 
     p {
