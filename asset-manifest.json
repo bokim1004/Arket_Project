@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Arket_Project/static/css/main.77ef23e3.chunk.css",
+    "main.css": "/Arket_Project/static/css/main.98d26e89.chunk.css",
     "main.js": "/Arket_Project/static/js/main.42f89d08.chunk.js",
     "main.js.map": "/Arket_Project/static/js/main.42f89d08.chunk.js.map",
     "runtime-main.js": "/Arket_Project/static/js/runtime-main.51c9d2ee.js",
@@ -8,14 +8,14 @@
     "static/js/2.17107911.chunk.js": "/Arket_Project/static/js/2.17107911.chunk.js",
     "static/js/2.17107911.chunk.js.map": "/Arket_Project/static/js/2.17107911.chunk.js.map",
     "index.html": "/Arket_Project/index.html",
-    "static/css/main.77ef23e3.chunk.css.map": "/Arket_Project/static/css/main.77ef23e3.chunk.css.map",
+    "static/css/main.98d26e89.chunk.css.map": "/Arket_Project/static/css/main.98d26e89.chunk.css.map",
     "static/js/2.17107911.chunk.js.LICENSE.txt": "/Arket_Project/static/js/2.17107911.chunk.js.LICENSE.txt",
     "static/media/Mainpage.scss": "/Arket_Project/static/media/main.694bac8b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.51c9d2ee.js",
     "static/js/2.17107911.chunk.js",
-    "static/css/main.77ef23e3.chunk.css",
+    "static/css/main.98d26e89.chunk.css",
     "static/js/main.42f89d08.chunk.js"
   ]
 }
